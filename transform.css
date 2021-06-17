@@ -1,0 +1,26 @@
+img {
+  max-height: 200px;
+  max-width: auto;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  transition: transform 1s ease-in-out;
+  cursor: pointer;
+  /* transform-origin: bottom left; */
+
+  /*30% to the right, 80% to the bottom*/
+  /* transform-origin: 30% 80%;  */
+
+  /* transform-origin: 300px 150px; */
+}
+
+img:hover {
+  /* transform: translate(-200px, 100px) scale(2) rotate(45deg) skew(30deg, 20deg); */
+  /* transform: scale(2); */
+  /* transform: rotate(-40deg); */
+  /* transform: rotate(-0.5turn); */
+  /* transform: rotate(200grad); */
+  /* transform: skew(-30deg, -30deg); */
+
+  /* transform: rotate(45deg); */
+}

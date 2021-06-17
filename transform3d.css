@@ -1,0 +1,20 @@
+img {
+  max-height: 200px;
+  max-width: auto;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  transition: transform 1s ease-in-out;
+  cursor: pointer;
+}
+
+body {
+  /* distance between eye and computer to translateZ */
+  /* put the container of the object that used perspective */
+  perspective: 500px;
+}
+
+img:hover {
+  /* transform: translateZ(400px); */
+  transform: rotateY(70deg) rotateX(60deg) rotateZ(80deg);
+}
